@@ -5,6 +5,6 @@ import { body, validationResult } from 'express-validator';
 export const index = asyncHandler(async (req, res, next) => {
   return res.json({
     project: 'Odin-Book',
-    author: 'dziubenzo',
+    author: 'bensonzhaolangli',
   });
 });

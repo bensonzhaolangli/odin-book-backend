@@ -12,6 +12,6 @@ test('GET "/" works', (done) => {
   request(app)
     .get('/')
     .expect('Content-Type', /json/)
-    .expect({ project: 'Odin-Book', author: 'dziubenzo' })
+    .expect({ project: 'Odin-Book', author: 'bensonzhaolangli' })
     .expect(200, done);
 });
